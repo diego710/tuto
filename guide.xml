@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files_0.zip -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!-- for siteini's that need a decrypt_userkey-->
+  <decryptkey site="site-name">decrypt_userkey</decryptkey>
+  <!-- add the correct license id values in the next line -->
+  <license wg-username="your webgrab+plus username" registered-email="your registered email address" password="your license password">f</license>
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>2</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+			or https://github.com/SilentButeo2/webgrabplus-siteinipack/tree/master/siteini.pack
+  -->
+  
+    <channel update="i" site="lineup.net.br" site_id="151" xmltv_id="CARTOON NETWORK HD">CARTOON NETWORK HD</channel>
+    <channel update="i" site="meuguia.tv" site_id="CAR" xmltv_id="CARTOON NETWORK 4K">CARTOON NETWORK 4K</channel>
+    <channel update="i" site="meuguia.tv" site_id="NEW" xmltv_id="BAND NEWS HD">BAND NEWS HD</channel>
+    <channel update="i" site="netcombo.com.br" site_id="1022##band_news" xmltv_id="BAND NEWS 4K">BAND NEWS 4K</channel>
+	<channel update="i" site="netcombo.com.br" site_id="2247##band" xmltv_id="BAND SP 4k">BAND SP 4k</channel>
+	<channel update="i" site="clarotv.com.br" site_id="23_#_2063" xmltv_id="BAND SP HD">BAND SP HD</channel>
+	<channel update="i" site="clarotv.com.br" site_id="91_#_2063" xmltv_id="BAND NORDESTE UHD">BAND NORDESTE UHD</channel>
+	<channel update="i" site="meuguia.tv" site_id="APL" xmltv_id="ANIMAL PLANET 4K">ANIMAL PLANET 4K</channel>
+	<channel update="i" site="meuguia.tv" site_id="MGM" xmltv_id="AMC 4K">AMC 4K</channel>
+	<channel update="i" site="netcombo.com.br" site_id="1618##amc" xmltv_id="AMC HD">AMC HD</channel>
+	<channel update="i" site="meuguia.tv" site_id="BQ5" xmltv_id="ARTE 1 4K">ARTE 1 4K</channel>
+	<channel update="i" site="netcombo.com.br" site_id="2060##arte_1_hd" xmltv_id="ARTE 1 HD">ARTE 1 HD</channel>
+	<channel update="i" site="meuguia.tv" site_id="AXN" xmltv_id="AXN 4K">AXN 4KAXN 4K</channel>
+	<channel update="i" site="meuguia.tv" site_id="BSP" xmltv_id="BAND SPORTS 4K">BAND SPORTS 4K</channel>
+	<channel update="i" site="netcombo.com.br" site_id="1095##band_sports_hd_" xmltv_id="BAND SPORTS HD">BAND SPORTS HD</channel>
+	<channel update="i" site="meuguia.tv" site_id="MSH" xmltv_id="BIS HD">BIS HD</channel>
+	<channel update="i" site="netcombo.com.br" site_id="1055##bis" xmltv_id="BIS 4K">BIS 4K</channel>
+	<channel update="i" site="meuguia.tv" site_id="BOI" xmltv_id="CANAL BOI HD">CANAL BOI HD</channel>
+    <channel update="i" site="meuguia.tv" site_id="CBR" xmltv_id="CANAL BRASIL 4K">CANAL BRASIL 4K</channel>
+	<channel update="i" site="netcombo.com.br" site_id="2299##canal_brasil_hd_" xmltv_id="CANAL BRASIL HD">CANAL BRASIL HD</channel>
+    <channel update="i" site="meuguia.tv" site_id="MNX" xmltv_id="CINEMAX HD">CINEMAX HD</channel>
+    <channel update="i" site="netcombo.com.br" site_id="1098##cinemax_hd_" xmltv_id="CINEMAX 4K">CINEMAX 4K</channel>
+    <channel update="i" site="meuguia.tv" site_id="CN9" xmltv_id="CNN BRASIL 4K">CNN BRASIL 4K</channel>
+	<channel update="i" site="meuguia.tv" site_id="CNN" xmltv_id="CNN INTERNACIONAL 4K">CNN INTERNACIONAL 4K</channel>
+	
+
+</settings> 
